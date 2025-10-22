@@ -1,0 +1,54 @@
+# ===== Build artifacts =====
+out/
+bin/
+build/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# Java crash logs
+hs_err_pid*
+replay_pid*
+
+# ===== IDE / Editor =====
+# VS Code: ignore everything but keep key configs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA / Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+
+# ===== Logs / Reports =====
+*.log
+logs/
+coverage/
+jacoco*.exec
+test-results/
+surefire-reports/
+failsafe-reports/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+
+# ===== Temp files =====
+*.swp
+*.swo
+*~
