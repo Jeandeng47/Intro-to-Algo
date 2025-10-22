@@ -1,7 +1,22 @@
 {
+    "java.project.sourcePaths": [
+        "C15-Dynamic-Programming",
+        // "C14-Divide-and-Conquer",
+        // "C16-Greedy"
+    ],
+
+    "java.project.outputPath": "out",
+    
+    "files.exclude": {
+        "**/*.class": true,
+        "out/**": true
+    },
+    
     "workbench.colorCustomizations": {
         "activityBar.background": "#5F0714",
         "titleBar.activeBackground": "#860A1C",
         "titleBar.activeForeground": "#FFFBFC"
     }
+
+    
 }
